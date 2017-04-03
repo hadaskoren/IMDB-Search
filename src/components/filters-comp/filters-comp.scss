@@ -6,4 +6,12 @@
 
 .filterComps {
     display: flex;
+
+}
+
+@media screen and (max-width: 780px) {
+    .filterComps {
+        flex-direction: column;
+        float: right;
+    }
 }

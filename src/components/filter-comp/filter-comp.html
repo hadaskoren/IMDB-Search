@@ -1,0 +1,13 @@
+<div class="filter"> 
+    <div class="dropdown">
+        <select class="dropdownFilter">
+                <option v-for="title in titles">
+                    <span v-for="(value,key) in title">
+                        <span v-if="key === filterType">
+                            {{value}}
+                        </span>
+                    </span>
+                </option>
+        </select>
+    </div>
+</div>

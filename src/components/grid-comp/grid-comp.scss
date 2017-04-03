@@ -1,0 +1,21 @@
+.posters {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    div {
+        display: flex;
+        margin-top: 20px;
+    }
+
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.col {
+    border: 1px solid black;
+}

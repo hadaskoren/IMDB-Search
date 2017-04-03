@@ -1,0 +1,13 @@
+<div>
+     <div class="posters" v-if="showData">
+         <div>
+            <div class="row">
+                <span v-for="title in titles" class="col">
+                    <!--<movie-comp :title></movie-comp>-->
+                    <img :src="title.Poster"></img>
+                    <label>{{title.Title}}</label>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
